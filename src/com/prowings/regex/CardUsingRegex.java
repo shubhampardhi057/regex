@@ -16,6 +16,8 @@ public class CardUsingRegex {
 		
 	}
 
+	
+	
 	private static boolean isValidCard(String inputCard) {
 		
          Pattern pattern = Pattern.compile("^4[0-9]{12}(?:[0-9]{3})?$");
